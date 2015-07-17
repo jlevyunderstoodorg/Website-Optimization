@@ -539,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // stored in new variable
   var windowheight = window.innerHeight;
   var movingPizzaContainer = document.getElementById('movingPizzas1');
-
+  // decreased the amount of pizzas
   for (var i = 0; i < 10; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
