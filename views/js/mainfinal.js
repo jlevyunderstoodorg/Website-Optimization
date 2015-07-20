@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var w = document.documentElement.clientWidth;
   var h = document.documentElement.clientHeight;
   var rows = Math.floor(h/s)+1;
-  var totalPizzas = col * rows;
+  var totalPizzas = cols * rows; // added the s to cols, it was a typo before
 
 
   // changed querySelector to getElementById to reduce number of queries
